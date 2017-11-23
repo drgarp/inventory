@@ -4,3 +4,8 @@ First you need a mongo container. Do the following steps:
 2. **Run the image (store data in db):** docker run -d -p 27017:27017 -v /data:/data/db mongo
 3. **Connect to the DB to test:** mongo localhost/db
 
+# Mongo
+* > const humblejs = require('humblejs')
+* > var db = new humblejs.Database('mongodb://localhost:27107/db')
+
+
